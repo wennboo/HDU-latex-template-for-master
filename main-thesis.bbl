@@ -1,0 +1,139 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{zhao2015bearing0}
+\bibauthor{Zhao S\@, Zelazo D}\@. \bibtitle{Bearing-based formation
+  stabilization with directed interaction topologies}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{in Proceedings of 54th IEEE Conference on
+  Decision and Control (CDC)}\@. \bibaddress{Osaka,
+  Japan}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{6115\thinspace{}\textnormal{--}\thinspace{}6120}\@.
+
+\bibitem{williams1991probability}
+\bibauthor{Williams D}\@. \bibbooktitle{Probability with
+  martingales}\bibmark{[M]}\@. \bibaddress{Cambridge}\thinspace{}\textnormal{:
+  }\bibpublisher{Cambridge University Press}\@,
+  \bibyear{1991}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}600}\@.
+
+\bibitem{chengzhaolin2006}
+\bibauthor{程兆林\@, 马树萍}\@.
+  \bibbooktitle{线性系统理论}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibpublisher{科学出版社}\@, \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}600}\@.
+
+\bibitem{zhangsan2007}
+\bibauthor{张三\@, 李四\@, 王五, 等}\@.
+  \bibbooktitle{线性系统}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{: }\bibpublisher{XX出版社}\@,
+  \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}600}\@.
+
+\bibitem{cao2011formation}
+\bibauthor{Cao M\@, Yu C\@, Anderson B~D}\@. \bibtitle{Formation control using
+  range-only measurements}\bibmark{[J]}\@. \bibjournal{Automatica}\@,
+  \bibyear{2011}\@, \bibvolume{47}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{776\thinspace{}\textnormal{--}\thinspace{}781}\@.
+
+\bibitem{xue2015formation}
+\bibauthor{薛瑞彬\@, 宋建梅\@, 张民强}\@.
+  \bibtitle{具有时延及联合连通拓扑的多飞行器分布式协同编队飞行控制研究}\bibmark{[J]}\@.
+  \bibjournal{兵工学报}\@, \bibyear{2015}\@,
+  \bibvolume{36}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{492\thinspace{}\textnormal{--}\thinspace{}502}\@.
+
+\bibitem{lisi2015}
+\bibauthor{李四}\@. \bibtitle{LTE
+  下行链路传输与信道估计技术}\bibmark{[D]}\@.
+  \bibaddress{南京}\thinspace{}\textnormal{:
+  }\bibschool{东南大学信息学院}\@, \bibyear{2015}\@.
+
+\bibitem{wangwu2015}
+\bibauthor{王五}\@. \bibtitle{LTE MIMO检测技术}\bibmark{[D]}\@.
+  \bibaddress{南京}\thinspace{}\textnormal{:
+  }\bibschool{东南大学信息学院}\@, \bibyear{2015}\@.
+
+\bibitem{deans2005bearings}
+\bibauthor{Deans M~C\@, Hebert M}\@. \bibtitle{Bearings-only localization and
+  mapping}\bibmark{[D]}\@. \bibaddress{XXX}\thinspace{}\textnormal{:
+  }\bibschool{Citeseer}\@, \bibyear{2005}\@.
+
+\bibitem{irdawebsite}
+\bibauthor{xxxx}\@. \bibtitle{Infrared Data
+  Association(IrDA)}\bibmark{[EB/OL]}\@. \bibpublisher{Website}\@,
+  \bibyear{2021}\@. \newline\url{http://www.irda.org/}\@.
+
+\bibitem{h7n9}
+\bibauthor{张乐}\@.
+  \bibtitle{我科学家成功研发人感染H7N9禽流感病毒疫苗株}\bibmark{[EB/OL]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{: }\bibpublisher{人民网}\@,
+  \bibyear{2013} \bibmodifydate{(2013-10-27)} \bibcitedate{[2013-10-27]}\@.
+  \newline\url{http://society.people.com.cn/n/2013/1027/c1008-23337665.html}\@.
+
+\bibitem{wikipedia_moores_law}
+\bibauthor{{Wikipedia contributors}}\@. \bibtitle{{Moore's
+  law}}\bibmark{[EB/OL]}\@. \bibpublisher{Wikipedia, The Free Encyclopedia}\@,
+  \bibyear{2015} \bibmodifydate{(2015/06/14)} \bibcitedate{[2015/06/15]}\@.
+  \newline\url{https://en.wikipedia.org/wiki/Moore%27s_law}\@.
+
+\bibitem{xiao2012yi}
+\bibauthor{肖珍新}\@.
+  \bibtitle{一种新型排渣阀调节降温装置}\thinspace{}\textnormal{:
+  }\bibcountry{中国}\@, \bibpatentid{123456}\bibmark{[P]}\@.
+  \bibdate{2012年4月25日}\@.
+
+\bibitem{p6915001}
+\bibauthor{Tachibana R\@, Shimizu S\@, Kobayshi S, et~al}\@.
+  \bibtitle{Electronic watermarking method and system}\thinspace{}\textnormal{:
+  }\bibcountry{US}\@, \bibpatentid{6,915,001}\bibmark{[P]}\@.
+  \bibdate{2002-04-25}\@.
+
+\bibitem{zhang2000}
+\bibauthor{张田勤}\@.
+  \bibtitle{罪犯DNA库与生命伦理学计划}\bibmark{[N]}\@.
+  \bibjournal{大众科技报}\@, \bibdate{2000-11-12}\@.
+
+\bibitem{renminribao}
+\bibeditor{{人民日报编辑部}}\@. \bibtitle{人民日报}\bibmark{[N]}\@.
+  \bibyear{2011}\@, \bibvolume{22892}\thinspace{}\textnormal{--}\thinspace{}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
+  }\bibpublisher{人民日报出版社}\@,
+  \bibyear{2011}\thinspace{}\textnormal{--}\thinspace{}\@.
+
+\bibitem{gbt3469-1983}
+\bibauthor{{中国科学技术情报研究所}}\@. \bibtitle{GB/T 3469-1983:
+  文献类型与文献载体代码}\bibmark{[S]}\@. \bibyear{1983}\@.
+
+\bibitem{薛瑞彬2015具有时延及联合连通拓扑的多飞行器分布式协同编队飞行控制研究}
+\bibauthor{薛瑞彬\@, 宋建梅\@, 张民强}\@.
+  \bibtitle{具有时延及联合连通拓扑的多飞行器分布式协同编队飞行控制研究}\bibmark{[J]}\@.
+  \bibjournal{兵工学报}\@, \bibyear{2015}\@,
+  \bibvolume{036}\bibnumber{(003)}\thinspace{}\textnormal{:
+  }\bibpages{492\thinspace{}\textnormal{--}\thinspace{}502}\@.
+
+\end{thebibliography}
