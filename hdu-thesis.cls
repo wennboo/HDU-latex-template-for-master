@@ -210,11 +210,20 @@
   {\thesubsubsection}{6pt}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%参考文献格式设置%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setlength{\bibsep}{0em}%%%%%%%调整间距
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%公式、图表、定理等编号等设置%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theorem}{定理}[chapter]
+\newtheorem{axiom}{公理}[chapter]
+\newtheorem{corollary}{推论}[chapter]
+\newtheorem{lemma}{引理}[chapter]
+\newtheorem{definition}{定义}[chapter]
+\newtheorem{example}{举例}[chapter]
+\newtheorem{proposition}{命题}[chapter]
+\newtheorem{problem}{问题}[chapter]
+\newtheorem{assumption}{假设}[chapter]
+\newtheorem{remark}{注}[chapter]
 
-%%%%公式、图表编号等设置%%%
+
 \renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
 \renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
 \renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
