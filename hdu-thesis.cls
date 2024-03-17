@@ -236,6 +236,7 @@
 \renewcommand{\theproposition}{\arabic{chapter}.\arabic{proposition}}
 \renewcommand{\theproblem}{\arabic{chapter}.\arabic{problem}}
 \renewcommand{\theassumption}{\arabic{chapter}.\arabic{assumption}}
+\renewcommand{\theremark}{\arabic{chapter}.\arabic{remark}}
 \renewcommand\thealgocf{\arabic{chapter}-\arabic{algocf}}
 \renewcommand{\proofname}{\bfseries 证明}
 
