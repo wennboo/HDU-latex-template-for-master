@@ -27,6 +27,11 @@
 \newif\ifbcover\bcoverfalse
 \newif\ifmcover\mcoverfalse
 
+%%%%%%%%%%控制页眉flag%%%%%%%%%%%
+\newif\ifreviewhead\reviewheadfalse
+
+
+
 \DeclareOption{bachelor_p}{\bachelorptrue\bdeclarationtrue\bcovertrue}
 \DeclareOption{bachelor_d}{\bachelordtrue\bdeclarationtrue\bcovertrue}
 \DeclareOption{bachelor_review}
@@ -36,10 +41,10 @@
 \DeclareOption{promaster}{\promastertrue\mdeclarationtrue\mcovertrue}
 \DeclareOption{doctor}{\doctortrue\mdeclarationtrue\mcovertrue}
 \DeclareOption{engdoctor}{\engdoctortrue\mdeclarationtrue\mcovertrue}
-\DeclareOption{master_review}{\masterrtrue}
-\DeclareOption{promaster_review}{\promasterrtrue}
-\DeclareOption{doctor_review}{\doctorrtrue}
-\DeclareOption{engdoctor_review}{\engdoctorrtrue}
+\DeclareOption{master_review}{\masterrtrue\reviewheadtrue}
+\DeclareOption{promaster_review}{\promasterrtrue\reviewheadtrue}
+\DeclareOption{doctor_review}{\doctorrtrue\reviewheadtrue}
+\DeclareOption{engdoctor_review}{\engdoctorrtrue\reviewheadtrue}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
@@ -165,8 +170,6 @@
 \raggedbottom
 %%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %%%%%%%%%%%%%%%%%%%%%%正文页眉，章节等设置%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\headheight}{15pt}
 \pagestyle{fancy}
@@ -209,6 +212,8 @@
   {\xiaosihao\heiti}
   {\thesubsubsection}{6pt}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%公式、图表、定理等编号等设置%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -358,7 +363,10 @@
     \addcontentsline{toc}{chapter}{摘\one@space 要}
     \fancyhf{} %清除以前对页眉页脚的设置
     \fancyhead[C]{\wuhao 摘\one@space 要}
-    %\fancyhead[C]{\cn@thesisheader}
+    %送审版页眉
+    \ifreviewhead
+    \fancyhead[C]{\wuhao\cn@thesisheader}
+    \fi
     \fancyfoot[CE,CO]{\xiaowuhao \thepage}
 }
 
@@ -374,7 +382,10 @@
   \addcontentsline{toc}{chapter}{ABSTRACT}
     \fancyhf{}
     \fancyhead[C]{\wuhao ABSTRACT}
-    %\fancyhead[C]{\cn@thesisheader}
+    %送审版页眉
+    \ifreviewhead
+    \fancyhead[C]{\wuhao\cn@thesisheader}
+    \fi
     \fancyfoot[CE,CO]{\xiaowuhao \thepage}
 }
 
@@ -391,7 +402,11 @@
   %\pdfbookmark{\listfigurename}{\listfigurename}
   \fancyhf{}
   \fancyhead[C]{\wuhao\listfigurename}
-  %\fancyhead[C]{\cn@thesisheader}
+  %\fancyhead[C]{\wuhao\cn@thesisheader}
+  %送审版页眉
+  \ifreviewhead
+  \fancyhead[C]{\wuhao\cn@thesisheader}
+  \fi
   \fancyfoot[CE,CO]{\xiaowuhao \thepage}
   \addtolength{\cftfignumwidth}{12pt}
   \renewcommand{\cftfigpresnum}{\figurename}
@@ -406,7 +421,11 @@
   %\pdfbookmark{\listtablename}{\listtablename}
   \fancyhf{}
   \fancyhead[C]{\wuhao\listtablename}
-  %\fancyhead[C]{\cn@thesisheader}
+  %\fancyhead[C]{\wuhao\cn@thesisheader}
+  %送审版页眉
+  \ifreviewhead
+  \fancyhead[C]{\wuhao\cn@thesisheader}
+  \fi
   \fancyfoot[CE,CO]{\xiaowuhao \thepage}
   \addtolength{\cfttabnumwidth}{12pt}
   \renewcommand{\cfttabpresnum}{\tablename}
@@ -467,7 +486,11 @@
   \fancyhf{}
   % \fancyhead[C]{}
     \fancyhead[C]{\wuhao 缩略词表}
-    %\fancyhead[C]{\cn@thesisheader}
+    %\fancyhead[C]{\wuhao\cn@thesisheader}
+    %送审版页眉
+    \ifreviewhead
+    \fancyhead[C]{\wuhao\cn@thesisheader}
+    \fi
     \fancyfoot[CE,CO]{\xiaowuhao\thepage}
    % \pdfbookmark{缩略词表}{glossary}
     \printglossary[style=hdu-cn, title={\protect\centering 缩略词表}, nonumberlist, nogroupskip]
@@ -485,7 +508,11 @@
   \newpage
   \fancyhf{}
   \fancyhead[C]{\wuhao 目\one@space 录}
-  %\fancyhead[C]{\cn@thesisheader}
+  %\fancyhead[C]{\wuhao\cn@thesisheader}
+  %送审版页眉
+  \ifreviewhead
+  \fancyhead[C]{\wuhao\cn@thesisheader}
+  \fi
   \fancyfoot[CE,CO]{\xiaowuhao \thepage}
   \pdfbookmark{目录}{toc}
   \tableofcontents@orig
@@ -578,6 +605,10 @@
       \fancyhf{}
       \fancyhead[CE]{\wuhao\cn@thesisheader}
       \fancyhead[CO]{\wuhao\leftmark}
+      %送审版页眉
+      \ifreviewhead
+      \fancyhead[CO]{\wuhao\cn@thesisheader}
+      \fi
       %\fancyhead[CE,CO]{\wuhao\cn@thesisheader}
       \fancyfoot[CE,CO]{\xiaowuhao\thepage}
     \fi
