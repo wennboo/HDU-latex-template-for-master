@@ -95,10 +95,10 @@
   \newCJKfontfamily{\Fangsong}{STFangsong}
   \newfontfamily{\heiti@letter}{STHeiti}
 \else
-  \setCJKmainfont[AutoFakeBold=true]{fzsong.ttf}
-  \newCJKfontfamily{\heiti}{fzhei.ttf}
-  \newCJKfontfamily{\kaiti}{fzkai.ttf}
-  \newfontfamily{\heiti@letter}{fzhei.ttf}
+  \setCJKmainfont[AutoFakeBold=true]{SimSun}
+  \newCJKfontfamily{\heiti}{SimHei}
+  \newCJKfontfamily{\kaiti}{KaiTi}
+  \newfontfamily{\heiti@letter}{SimHei}
 \fi
 \fi
 
